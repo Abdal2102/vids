@@ -22,7 +22,7 @@ vWin.rightNavButton = vButn;
 vWin.add(vButn);
 
 vButn.addEventListener("click", function(e){
-	if (vButn.title == "Record Video"){
+	if (vButn.title == "Rec"){
 		
 		Ti.Media.showCamera({
 			success:function(e){
